@@ -43,7 +43,10 @@ They will feed in their present location and based on it we can find their appro
 
 
 
-WE WENT TO PILANI VILLAGE AND THIS IS WHAT WE GOT
+**WE WENT TO PILANI VILLAGE AND THIS IS WHAT WE GOT**
+
+
+![Survey](../master/Images/Survey.jpg)
 
  
 Based on this we look to tackle the problem like the following.
@@ -58,7 +61,16 @@ We followed these simple rules of iconography:
 - 5 second rule, if you can’t think of that icon in five seconds then that icon probably is not a good choice. Will be checking on it with local village people in Pilani.
 - Memorability, making the icons distinct enough that they are remembered even after prolonged usage.
   
-Emergency Contacts Nearby hospitals
+
+![Emergency](../master/Images/emergency.jpg)
+
+**Emergency Contacts**
+
+
+![Hospital](../master/Images/hospital.jpg)
+
+**Hospital Contacts**
+
 
 We are looking forward to two types of feedback. After the implementation of the application, the locals here will be offered to use it. At this stage will be able to get quick feedback about usability and other challenges.
 The second feedback will have a rather longer loop, where the people will be using it in the field and on their return we will learn about how it went and get more qualitative feedback. 
