@@ -1,13 +1,19 @@
-# HackOverflow
-Repository for the competition Codefundo++
+# Team Name
+**HackOverflow**
 
-**Team Mates**
-Ayush Jain
-Deepak Jain
+# Members
+Ayush Jain,Deepak Jain
 
-# Vision 
-To develop an app which can predict the probability of an earthquake at that place and suggest preventive measures.
-# Need
+# College
+BITS Pilani
+
+# City
+Pilani
+
+# Theme
+Innovate to help cities better predict and prepare for natural disasters.
+
+# Challenge
 Earthquake is one of the most devastating natural calamities that takes thousands of lives and leaves millions more homeless and deprives them of the basic necessities. A survey from United Stated Geological Survey group shows that the last decade experienced approximately 450,000 deaths due to earthquakes. It breaks the backbone of the economy of a nation. This threat cannot be averted by mankind, but if predicted, the damage can be minimized. So, we need a tool to accurately predict earthquakes. 
 
 # Implementation
