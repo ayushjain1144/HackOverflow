@@ -14,9 +14,9 @@ Pilani
 Innovate to help cities better predict and prepare for natural disasters.
 
 # Challenge
-Earthquake is one of the most devastating natural calamities that takes thousands of lives and leaves millions more homeless and deprives them of the basic necessities. A survey from United Stated Geological Survey group shows that the last decade experienced approximately 450,000 deaths due to earthquakes. It breaks the backbone of the economy of a nation. This threat cannot be averted by mankind, but if predicted, the damage can be minimized. So, we need a tool to accurately predict earthquakes. 
+Earthquake is one of the most devastating natural calamities that takes thousands of lives and leaves millions more homeless and deprives them of the basic necessities. A survey from United Stated Geological Survey group shows that the last decade experienced approximately 450,000 deaths due to earthquakes. It breaks the backbone of the economy of a nation. This threat cannot be averted by mankind, but if predicted, the damage can be minimized. So, we need a tool to accurately predict earthquakes and to make unaware people aware of the basic steps and precautions that need to be taken during earthquakes.
 
-# Implementation
+# Solution
 **Prediction part**
 Artificial Neural Networks are increasingly used in predicting and classifying tasks because of their ability to capture complex relationship of output with the set of inputs. For this particular task, there are so many factors involved in the process that other model based approach do not fit the data points as accurately as neural networks do.
 
