@@ -20,7 +20,18 @@ Earthquake is one of the most devastating natural calamities that takes thousand
 **Natural Time** (“NT”) refers to the concept of using small earthquake counts, for example of M>3 events, to mark the intervals between large earthquakes, for example M>6 events. It is particularly useful in describing complex stochastic nonlinear systems characterized by fat-tail statistics rather than Gaussian normal statistics.
 We introduce the idea of **nowcasting**, a term originating from economics and finance. The goal of nowcasting is to determine the current state of the fault system, or put another way, the current state of progress through the earthquake cycle. 
 Nowcasting enables us to forecast higher magnitude earthquakes by taking into account the number of smaller tremors in the same region. The technique used for this purpose are **Long Short Term Memory(LSTM) Neural Networks**. They are special kind of networks which have ability to use the previous input to predict the next value. These networks are perfectly suited for tasks involving time series analysis. Since our data, used for now casting is similar to time series, we decided to use this network.
-We will be using Azure ML Lab and Azure computing services.
+
+  Actually using nowcasting we could form a Commulative Distribution Function(CDF) of the nowcast.
+                         CDF =  P(n < n(t))
+                            where n(t) denote the no. of small earthquakes since the last large earthquake.
+  Concretely speaking we could calculate **Earthquake Potential Score(EPS)** using the predicted nowcast and the CDF. The EPS score will denote the probability that a substantiallly big earthquake(5 and above) can take place in near future in your area. Thus a high value of EPS, say 90%, could serve as a alarm for the people in that region and might help them to prepare beforehand for the calamity.
+  
+  We faced a few challenges in the implementation part:
+  
+  1. The earthquake data is available only for last 100 years or so. And since deeplearning requires enormous data, it became an obvious problem.
+  
+  2. Even bigger problem was the **Completeness value** for the data available is very poor. The small earthquakes have started to been reported only recently. Because of that we had to ignore a large chunk of data as it would have led the neural network to learn a wrong trend. Even as recent as 1990, Mc(completeness value) is 4, which means that only earthquakes above 4 are recorded completely. But with advancement in technology, it would definately improve and then the method would become stronger. 
+
 
 **Features**
 1. **One Click Probability of earthquake using Realtime Location**
@@ -41,15 +52,19 @@ Game Development,
 Java,
 App Development,
 Azure Cloud Services,
-Azure ML Lab
+Azure ML Lab, 
+MATLAB
 
 
 # References
-To develop this idea we have taken references from the following research papers
+To develop this idea we have taken references from many research papers(present in Research papers folder) but most relevant ones were:
 
 Rundle, J. B., D. L. Turcotte, A. Donnellan, L. Grant Ludwig, M. Luginbuhl, and G. Gong (2016), Nowcasting earthquakes, Earth and Space Science, 3, 480–486, doi:10.1002/2016EA000185.
 
 Wang Q., Guo Y., Yu L. , Pan L., (2017) Earthquake Prediction based on Spatio-Temporal Data Mining: An LSTM Network Approach, Transactions on Emerging Topics in Computing, 2168-6750 
+
+# Acknowledgements
+We wouldn't have been able to complete this project without the insights of our professor **Dr. Sumanta pasari** who had been an active researcher in seismeity and earthquakes around the Himalayan Region.
 
 
 
