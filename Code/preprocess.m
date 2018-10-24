@@ -4,7 +4,11 @@
 
  f = f(2:end);
  x = x(2:end);
- fid = fopen("Data.txt", 'w');
- fprintf(fid, '%f %f \n', [f x]');
+ fid = fopen("f.txt", 'w');
+ fprintf(fid, '%f\n', f);
+ fid2 = fopen("x.txt", 'w');
+ fprintf(fid2, '%f\n', x);
+ 
  fclose(fid);
+ fclose(fid2);
  
