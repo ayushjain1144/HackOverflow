@@ -1,0 +1,18 @@
+import java.io.*;
+import org.apache.commons.math3.analysis.interpolation.*;
+
+public class CDF_nowcast
+{
+	
+
+
+	FileReader xfr = new FileReader("/CDF_Prob/y.txt");
+	FileReader ffr = new FileReader("f.txt");
+
+
+	double[] y = new double[627];
+	double[] f = new double[627];
+
+
+
+}

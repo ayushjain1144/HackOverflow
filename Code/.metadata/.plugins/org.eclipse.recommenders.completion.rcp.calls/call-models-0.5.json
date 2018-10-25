@@ -1,0 +1,12 @@
+{
+  "C:\\Users\\HP\\Downloads\\earthquake folder\\HackOverflow\\Code\\CDF_Prob\\src": {
+    "location": "C:\\Users\\HP\\Downloads\\earthquake folder\\HackOverflow\\Code\\CDF_Prob\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\HP\\Downloads\\earthquake folder\\HackOverflow\\Code\\CDF_Prob\\src\u0027. Skipped."
+  },
+  "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\rt.jar": {
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\rt.jar",
+    "status": "UNRESOLVED",
+    "error": "Could not transfer artifact jre:jre:zip:call:1.0.0 from/to remote-models (http://download.eclipse.org/recommenders/models/kepler/): Error transferring file, server returned status code 307"
+  }
+}

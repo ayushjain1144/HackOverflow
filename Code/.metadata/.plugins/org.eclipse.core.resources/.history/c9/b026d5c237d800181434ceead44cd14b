@@ -1,0 +1,68 @@
+import java.io.*;
+import java.util.Scanner;
+
+import org.apache.commons.math3.analysis.interpolation.*;
+import org.apache.commons.math3.analysis.polynomials.PolynomialSplineFunction;
+
+public class CDF_nowcast
+{
+	double[] y = new double[627];
+	double[] f = new double[627];
+	
+	CDF_nowcast(){
+	try
+	{
+		Scanner ybr = new Scanner(new FileReader("y.txt"));
+		Scanner fbr = new Scanner(new FileReader("f.txt"));
+	
+	
+	while(ybr.hasNextDouble())
+	{
+		int i = 0;
+		
+		
+		y[i] = ybr.nextDouble();
+		f[i] = fbr.nextDouble();
+		i++;
+		
+		
+		
+	}
+	
+		ybr.close();
+		fbr.close();
+
+
+	
+
+	}
+	catch(FileNotFoundException e)
+	{
+		System.out.println("Error");
+	}
+	
+	}
+	
+	
+	public double get_prob(double count)
+	{
+		
+		LinearInterpolator in = new LinearInterpolator();
+		PolynomialSplineFunction func = in.interpolate(y, f);
+		double prob = func.value(count);
+		return prob;
+
+	}
+	public static void main(String[] args)
+	{
+		CDF_nowcast test = new CDF_nowcast();
+		double prob = test.get_prob(10);
+		System.out.println("Value of prob is" + prob);
+		
+	}
+	
+	
+
+
+
+}

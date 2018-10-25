@@ -1,0 +1,314 @@
+[
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "68c1709843b772af655a667e256325a46f2f788c",
+    "jarFileModificationDate": "2018-10-25T10:10:32.685+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\nashorn.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5b235aeeace3d8e4d2ea7965fb80167dbc64be42",
+    "jarFileModificationDate": "2018-10-25T10:10:47.771+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\localedata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6530a952a960fd6ad7328ce134f9cc117b04398d",
+    "jarFileModificationDate": "2018-10-25T10:10:44.500+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\rt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "776298c7024c6345fde0f255dffea69dccfd934f",
+    "jarFileModificationDate": "2018-10-25T10:10:33.524+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\jfr.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d5a485735f28bb51461b7e9a5005bcb05cb7f3d8",
+    "jarFileModificationDate": "2018-10-25T10:10:32.486+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\jfxrt.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "323bc9469f18cb72a4e20ee4d26ca6daa80e4e96",
+    "jarFileModificationDate": "2018-10-25T10:10:33.086+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\sunjce_provider.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "b2e88a3b1b579f55949c10fe8ff63d7d486311d8",
+    "jarFileModificationDate": "2018-10-25T10:10:33.086+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\zipfs.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "64c477210073670c030215436c1b177b025bc36d",
+    "jarFileModificationDate": "2018-10-25T10:10:32.422+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\dnsns.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2200b65edfa2173c66861fb06a786bc5245a393c",
+    "jarFileModificationDate": "2018-10-25T10:10:46.761+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "6452df62bdd2aa95350f178b87d663e247d53676",
+    "jarFileModificationDate": "2018-10-25T10:10:33.086+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\sunmscapi.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "cc5587e013fafa3acdcfb05b3425405c6c31293b",
+    "jarFileModificationDate": "2018-10-25T10:10:33.086+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\sunpkcs11.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "1f96de96b6cd4aa27716ea997e95635877c075b1",
+    "jarFileModificationDate": "2018-10-25T10:10:32.422+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\jaccess.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "55b61af3022bd4bb3ef6d3cdea224c5efd93557e",
+    "jarFileModificationDate": "2018-10-25T10:10:32.422+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\cldrdata.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "5460adee09cc5fc8829c0acfc46c34670a7d70a0",
+    "jarFileModificationDate": "2018-10-25T10:10:33.509+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "commons-math3-3.6.1-tools",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9e34ca65e418b6d7b780b041f55b9aa9917a71e2",
+    "jarFileModificationDate": "2016-03-17T13:27:34+05:30",
+    "location": "C:\\Users\\HP\\Downloads\\earthquake folder\\HackOverflow\\Code\\CDF_Prob\\commons-math3-3.6.1\\commons-math3-3.6.1-tools.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "commons-math3-3.6.1-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "8fab23986ea8886af34818daf32a718e81dc98ba",
+    "jarFileModificationDate": "2016-03-17T12:59:46+05:30",
+    "location": "C:\\Users\\HP\\Downloads\\earthquake folder\\HackOverflow\\Code\\CDF_Prob\\commons-math3-3.6.1\\commons-math3-3.6.1-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "242b45f8d12f484f3f084ff4e79a063efd16d0ce",
+    "jarFileModificationDate": "2018-10-25T10:10:45.740+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\jsse.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "commons-math3-3.6.1-test-sources",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "d0fac12b060b3da9e3995049b9980e78852a334e",
+    "jarFileModificationDate": "2016-03-17T12:59:46+05:30",
+    "location": "C:\\Users\\HP\\Downloads\\earthquake folder\\HackOverflow\\Code\\CDF_Prob\\commons-math3-3.6.1\\commons-math3-3.6.1-test-sources.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "bf1c817820341a246f7130fe046e8310b03d04f6",
+    "jarFileModificationDate": "2018-10-25T10:10:32.685+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\sunec.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "01d2905504981940e8f083b2dc8d46cc2aa6cfab",
+    "jarFileModificationDate": "2018-10-25T10:10:33.540+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\resources.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.math3",
+    "version": {
+      "major": 3,
+      "minor": 6,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf",
+    "jarFileModificationDate": "2016-03-17T13:34:20+05:30",
+    "location": "C:\\Users\\HP\\Downloads\\earthquake folder\\HackOverflow\\Code\\CDF_Prob\\commons-math3-3.6.1\\commons-math3-3.6.1.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "commons-math3-3.6.1-javadoc",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "2e894b7acae199b5dff08bb596334594b5f23c28",
+    "jarFileModificationDate": "2016-03-17T13:34:52+05:30",
+    "location": "C:\\Users\\HP\\Downloads\\earthquake folder\\HackOverflow\\Code\\CDF_Prob\\commons-math3-3.6.1\\commons-math3-3.6.1-javadoc.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "77fef2e09a5b3fe4bbb834557f4110feea988346",
+    "jarFileModificationDate": "2018-10-25T10:10:32.385+05:30",
+    "location": "C:\\Program Files\\Java\\jre1.8.0_192\\lib\\ext\\access-bridge-64.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "org.apache.commons.math3",
+    "version": {
+      "major": 3,
+      "minor": 6,
+      "micro": 1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "166e8b35ba841a16587c45393fd53742f3db6fac",
+    "jarFileModificationDate": "2016-03-17T12:59:48+05:30",
+    "location": "C:\\Users\\HP\\Downloads\\earthquake folder\\HackOverflow\\Code\\CDF_Prob\\commons-math3-3.6.1\\commons-math3-3.6.1-tests.jar",
+    "javaRuntime": false
+  }
+]

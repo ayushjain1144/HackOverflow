@@ -1,0 +1,36 @@
+import java.io.*;
+import org.apache.commons.math;
+
+public class CDF_nowcast
+{
+	
+
+
+	FileReader xfr = new FileReader("y.txt");
+	FileReader ffr = new FileReader("f.txt");
+
+
+	double[] y = new double[627];
+	double[] f = new double[627];
+
+	for(int i = 0; i < 627; i++)
+	{
+		y[i] = xfr.read();
+		f[i] = ffr.read();
+	}
+
+	public double get_prob(int count)
+	{
+		LinearInterpolator in = new LinearInterpolator();
+		PolynomialSplineFunction f = in.interpolate(y, f);
+		double prob = f.value(count);
+		return prob;
+
+	}
+
+
+
+
+
+
+}
