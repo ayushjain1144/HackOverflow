@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150931"
+    android:gravity="center"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    tools:context=".output">
+    <ImageView
+        android:id="@+id/kbc_small"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/kbc_small"
+        android:onClick="playGame"
+        android:src="@drawable/kbc" />
+
+    <ImageView
+        android:id="@+id/img_continue_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/continue_game"
+        android:onClick="playGame" />
+
+    <ImageView
+        android:id="@+id/button_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/play"
+        android:onClick="playGame"
+        android:src="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/button_high_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/high_scores"
+        android:onClick="playGame"
+        android:src="@drawable/high_scores" />
+
+    <ImageView
+        android:id="@+id/button_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/settings"
+        android:onClick="playGame"
+        android:src="@drawable/settings" />
+
+    <TextView
+        android:id="@+id/tv_continue_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="playGame"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</LinearLayout>

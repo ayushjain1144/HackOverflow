@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="#150931"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_length"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/et_playername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_length"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:focusable="true"
+                android:gravity="center"
+                android:hint="@string/name_input"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#E0E0E0"
+                android:textStyle="bold">
+            </EditText>
+
+            <Button
+                android:id="@+id/img_ok"
+                style="@style/text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_playername"
+                android:layout_centerHorizontal="true"
+                android:background="#3A70CC"
+                android:src="@drawable/ok"
+                android:text="@string/ok" />
+
+            <TextView
+                android:id="@+id/name_alert"
+                style="@style/text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_ok"
+                android:gravity="center" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

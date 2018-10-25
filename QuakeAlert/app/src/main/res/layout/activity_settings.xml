@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150931"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    android:weightSum="7"
+    tools:context="com.raman.rupanshu.kbc.High_Scores">
+    <TextView
+        android:id="@+id/switch_sound"
+        style="@style/text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:text="@string/music_volume"
+        android:textSize="25sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/choose_subject"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/option_bg"
+        android:gravity="center"
+        android:onClick="subjectPicker"
+        android:text="@string/choose_topics"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/instructions"
+        style="@style/text_style"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/option_bg"
+        android:gravity="center"
+        android:onClick="getInstructions"
+        android:text="@string/instructions"
+        android:textSize="25sp" />
+
+</LinearLayout>

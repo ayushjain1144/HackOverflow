@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeid"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Predict" />
+        <item
+            android:id="@+id/favouritesid"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Hospitals Near You" />
+        <item
+            android:id="@+id/contactid"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Emergency Contact" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/teamid"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Guidlines Game" />
+            
+        </menu>
+    </item>
+
+</menu>
