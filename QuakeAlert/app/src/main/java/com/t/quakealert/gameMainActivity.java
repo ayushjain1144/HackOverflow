@@ -14,7 +14,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-public class gameMainActivity extends Activity implements NavigationView.OnNavigationItemSelectedListener {
+public class gameMainActivity extends Activity {
 
     Animation A;
 
@@ -53,58 +53,5 @@ public class gameMainActivity extends Activity implements NavigationView.OnNavig
         };
         timerThread.start();
     }
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.mymenu, menu);
 
-
-        return super.onCreateOptionsMenu(menu);
-    }
-
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.homeid) {
-            Intent intent = new Intent(this, myHome.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            startActivity(intent);
-
-
-
-        } else if (id == R.id.favouritesid) {
-            Intent intent = new Intent(this, MapsActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            startActivity(intent);
-
-        } else if (id == R.id.contactid){
-            Intent intent = new Intent(this, gameMainActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            startActivity(intent);
-
-        } else if (id == R.id.teamid) {
-            Intent intent = new Intent(this, gameMainActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            startActivity(intent);
-
-        }
-
-
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
 }

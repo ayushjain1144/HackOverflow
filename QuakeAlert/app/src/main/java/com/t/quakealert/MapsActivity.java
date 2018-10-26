@@ -46,7 +46,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
 GoogleApiClient.OnConnectionFailedListener,
-LocationListener,NavigationView.OnNavigationItemSelectedListener{
+LocationListener{
 
 
     private GoogleMap mMap;
@@ -69,23 +69,8 @@ LocationListener,NavigationView.OnNavigationItemSelectedListener{
 
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.my_drawer);
-        ViewStub stub1 = findViewById(R.id.layout_stub1);
-        stub1.setLayoutResource(R.layout.my_appbar);
-        View inflated1 = stub1.inflate();
-        ViewStub stub2 = findViewById(R.id.layout_stub2);
-        stub2.setLayoutResource(R.layout.activity_maps);
-        View inflated2 = stub2.inflate();
+        setContentView(R.layout.activity_maps);
 
-        Toolbar myToolbar = findViewById(R.id.my_toolbar);
-        setSupportActionBar(myToolbar);
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, myToolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-        NavigationView navigationView = findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)
         {
@@ -357,57 +342,5 @@ LocationListener,NavigationView.OnNavigationItemSelectedListener{
     }
 
 
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.mymenu, menu);
 
-
-        return super.onCreateOptionsMenu(menu);
-    }
-
-
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
-
-        if (id == R.id.homeid) {
-            Intent intent = new Intent(this, myHome.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            startActivity(intent);
-
-
-        } else if (id == R.id.favouritesid) {
-            Intent intent = new Intent(this, MapsActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            startActivity(intent);
-
-        } else if (id == R.id.contactid){
-            Intent intent = new Intent(this, gameMainActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            startActivity(intent);
-
-        } else if (id == R.id.teamid) {
-            Intent intent = new Intent(this, gameMainActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            startActivity(intent);
-
-        }
-
-
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }
 }

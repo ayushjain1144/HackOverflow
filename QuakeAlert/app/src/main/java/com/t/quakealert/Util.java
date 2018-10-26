@@ -10,7 +10,7 @@ import static android.content.Context.VIBRATOR_SERVICE;
 //TODO Make a copy of this file before randomization
 class Util {
     static String[] topics = new String[]{"EarthQuake"};
-    static int[] topicsSize = new int[]{15};
+    static int[] topicsSize = new int[]{9};
     static void loadQuestions(DatabaseHelper mydb, int[] selectedCategories) {
         Log.d("Util", "load Question started");
         //default if not topics selected
@@ -32,21 +32,22 @@ class Util {
         int counter_serial_number = 0;
         //easy gk questions
         mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("EarthQuake", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
 
+        mydb.insert("EarthQuake", ++counter_serial_number, "While an earthquake is taking place you should:", "Stop, Drop, and Roll", "Drop, Cover, and Hold On", "Start running around", "Wait for the tremors to stop", "b");
+
+        mydb.insert("EarthQuake", ++counter_serial_number, "How much water should you have in your home emergency kit?", "1 gallon per person per day", "1 gallon per every 2 people per day", "3 gallons per person per day", "3 gallons per family per day", "a");
+
+        mydb.insert("EarthQuake", ++counter_serial_number, "To where should you evacuate if near a large body of water?", "The closest shelter", "The closest shelter", "The closest shelter", "Your car", "c");
+
+        mydb.insert("EarthQuake", ++counter_serial_number, "If you see a large fire you should:", "Leave immediately", "Call for help and wait for fire department to arrive", "Try to put it out", "Call fire department and leave immediately afterwards.", "d");
+
+        mydb.insert("EarthQuake", ++counter_serial_number, "How long after a major earthquake can aftershocks continue to happen?", "Hours", "Days", "Weeks", "Months", "c");
+
+        mydb.insert("EarthQuake", ++counter_serial_number, "From where shouldn’t you retrieve water if yours is tainted?", "Water heaters", "Toilet tank", "Canned vegetables", "Radiators", "d");
+
+        mydb.insert("EarthQuake", ++counter_serial_number, "How long can you keep frozen foods in the freezer if the door is closed?", "Hours", "One night", "A few days", "A week", "c");
+
+        mydb.insert("EarthQuake", ++counter_serial_number, "How often should you replace perishable items in your emergency kit such as water, food, meds, and batteries?", "Every 4 months", "Every 6 months", "Every year", "Every 2 yearss", "c");
     }
 
 
@@ -55,54 +56,22 @@ class Util {
         int counter_serial_number = 0;
         //        (           Sr.No.         , subject,difficulty,  QUESTIONS   , A  , B  , C  , D  , correct_option)
         mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
 
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
+        mydb.insert("Easy", ++counter_serial_number, "While an earthquake is taking place you should:", "Stop, Drop, and Roll", "Drop, Cover, and Hold On", "Start running around", "Wait for the tremors to stop", "b");
 
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
+        mydb.insert("Easy", ++counter_serial_number, "How much water should you have in your home emergency kit?", "1 gallon per person per day", "1 gallon per every 2 people per day", "3 gallons per person per day", "3 gallons per family per day", "a");
 
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
-        mydb.insert("Easy", ++counter_serial_number, "When an earthquake strikes, you should:", "Run outside to avoid falling building debris", "Take cover under a heavy piece of furniture", "Lean against an inside wall or stand under an inside doorway", "B and/or C", "d");
+        mydb.insert("Easy", ++counter_serial_number, "To where should you evacuate if near a large body of water?", "The closest shelter", "The closest shelter", "The closest shelter", "Your car", "c");
 
+        mydb.insert("Easy", ++counter_serial_number, "If you see a large fire you should:", "Leave immediately", "Call for help and wait for fire department to arrive", "Try to put it out", "Call fire department and leave immediately afterwards.", "d");
 
+        mydb.insert("Easy", ++counter_serial_number, "How long after a major earthquake can aftershocks continue to happen?", "Hours", "Days", "Weeks", "Months", "c");
 
+        mydb.insert("Easy", ++counter_serial_number, "From where shouldn’t you retrieve water if yours is tainted?", "Water heaters", "Toilet tank", "Canned vegetables", "Radiators", "d");
 
+        mydb.insert("Easy", ++counter_serial_number, "How long can you keep frozen foods in the freezer if the door is closed?", "Hours", "One night", "A few days", "A week", "c");
+
+        mydb.insert("Easy", ++counter_serial_number, "How often should you replace perishable items in your emergency kit such as water, food, meds, and batteries?", "Every 4 months", "Every 6 months", "Every year", "Every 2 yearss", "c");
 
 
 
