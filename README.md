@@ -45,15 +45,21 @@ Most of the death in earthquakes occurs due to the **lack of awareness** among p
 
 4. **Eathquake Alert**
 We will send real time notification update through **Azure push messaging** Service to all the nearby areas when earthquake has striken. We can also send **text message** with the help of government to all the people nearby.
+We will build an **arduino** device which would take your location and store it in **Azure IOT Hub** to tackle low network connectivity regions.
 
 # Technology Used
 Machine learning,
 Game Development,
-Java,
 App Development,
 Azure Cloud Services,
-Azure ML Lab, 
-MATLAB
+Azure ML Lab,
+Azure Machine Learning Service
+Azure Batch AI Compute
+Azure IOT Hub
+Arduino
+
+# Dataset
+We have collected all the earthquakes in the indo-eurasia tectonic plate from USGS website for the years 1900 till date.
 
 
 # References
